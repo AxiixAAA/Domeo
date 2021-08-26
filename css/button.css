@@ -1,0 +1,336 @@
+.button_width button{
+  padding: 3% 0%;
+  text-align: center;
+  background: #41B619;
+  border-radius: 100px;
+  border: 0px;
+
+  font-family: Noto Sans;
+  font-size: 1vw;
+  color: #FFFFFF;
+}
+.button_width button:hover{
+  background: #248f00;
+}
+.form button:hover{
+  background: #248f00;
+}
+
+.button_width button{
+  width: 45%;
+}
+
+/*.form ,*/
+.button_width p{
+  font-family: Noto Sans;
+  font-size: 1vw;
+  margin-bottom: 1vw;
+
+}
+
+/*  CLASS FORM  */
+.form ul{
+  display: flex;
+  justify-content: space-between;
+
+
+}
+.form li{
+
+  width: 15vw;
+
+  font-size: 1vw;
+
+}
+
+#button_2{
+  width: 20vw;
+  padding-top: 3.3%;
+}
+
+.form input[type="text"]{
+    /*font-size: 1vw;*/
+    padding: 10% 10%;
+
+
+    margin-top: 5%;
+
+    width: 100%;
+
+    border: 1px solid #41B619;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+::placeholder {
+  font-size: 1vw;
+}
+
+.form button{
+  padding: 6% 13%;
+  text-align: center;
+  background: #41B619;
+  border-radius: 100px;
+  border: 0px;
+
+  font-family: Noto Sans;
+  font-size: 1vw;
+  color: #FFFFFF;
+}
+
+
+.main_button_QWIZ_2 button{
+  font-size: 1vw;
+  margin-left: 60%;
+  width: 9vw;
+  height: 3vw;
+
+  background: #41B619;
+  border-radius: 100px;
+  border: 0px;
+  color: #FFFFFF;
+}
+.main_button_QWIZ_2 button:hover{
+  background: #269001;
+}
+.main_button_QWIZ_2 button p{
+
+  font-family: Noto Sans;
+}
+
+
+.main_button_QWIZ_1 button{
+  margin-left: 75%;
+  margin-bottom: 5%;
+  width: 11vw;
+  height: 4vw;
+  font-size: 1vw;
+  background: #41B619;
+  border-radius: 100px;
+  border: 0px;
+  color: #FFFFFF;
+}
+.main_button_QWIZ_1 button:hover{
+  background: #269001;
+}
+.main_button_QWIZ_1 button p{
+    font-family: Noto Sans;
+}
+
+
+
+/*Основной блок в котором лежат переключатели radio*/
+main{
+
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-top: 5%;
+  background: #FFFFFF;
+  box-shadow: 0px 16px 80px rgba(0, 0, 0, 0.07), 0px 6.68442px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 3.57381px 17.869px rgba(0, 0, 0, 0.0417275), 0px 2.00345px 10.0172px rgba(0, 0, 0, 0.035), 0px 1.06402px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 0.442761px 2.21381px rgba(0, 0, 0, 0.0196802);
+  border-radius: 10px;
+}
+.radio ul{
+  display: flex;
+  justify-content: space-between;
+	flex-wrap: wrap;
+
+}
+.radio li{
+	width: 25%;
+	font-size: 1vw;
+	margin-bottom: 5%;
+}
+
+/*стили для radio-текста*/
+.radio{
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1vw;
+  line-height: 155%;
+  color: #272727;
+}
+/*стили для скрытия стандартного элемента input.*/
+.custom-checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+/*Создадим поддельный чекбокс.*/
+.custom-checkbox+label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.custom-checkbox+label::before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 2px solid #DEDEDE;
+  box-sizing: border-box;
+  border-radius: 100%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+.custom-checkbox:checked+label::before {
+  border: 2px solid #FFDB48;
+  box-shadow: inset 0 0 0 0.2rem #FFDB48;
+
+}
+/* стили при наведении курсора на checkbox */
+.custom-checkbox:not(:disabled):not(:checked)+label:hover::before {
+  border: 2px solid yellow;
+}
+
+
+.fons_2_button button{
+  margin-left: 75%;
+  margin-bottom: 5%;
+  width: 11vw;
+  height: 4vw;
+  font-size: 1vw;
+  background: #41B619;
+  border-radius: 100px;
+  border: 0px;
+  color: #FFFFFF;
+}
+.fons_2_button button:hover{
+  background: #269001;
+}
+.fons_2_button button p{
+    font-family: Noto Sans;
+}
+
+.fons_2_button :active{
+}
+
+
+
+
+.Call_form{
+  /* Задаём размеры,позицию,тени основному блоку */
+
+  width: 45%;
+  padding: 5% 0% 4% 0%;
+  background: #FFFFFF;
+  box-shadow: 0px 16px 80px rgba(0, 0, 0, 0.07), 0px 6.68442px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 3.57381px 17.869px rgba(0, 0, 0, 0.0417275), 0px 2.00345px 10.0172px rgba(0, 0, 0, 0.035), 0px 1.06402px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 0.442761px 2.21381px rgba(0, 0, 0, 0.0196802);
+  border-radius: 10px;
+  font-family: Noto Sans;
+}
+
+/* Задаём стили главному заголовку*/
+.Call_form__head-top{
+  font-weight: 600;
+  font-size: 2vw;
+  line-height: 155%;
+  text-align: center;
+  color: #272727;
+}
+/* Задаём стили подзаголовку*/
+.Call_form__head-bottem{
+  text-align: center;
+  font-size: 1vw;
+  letter-spacing:0.05vw;
+  font-weight: 600;
+  margin-bottom: 7%;
+  text-align: center;
+  color: #272727;
+}
+/* Задаём стили заголовкам 'input'*/
+.Call_form__label p{
+  margin-left: 13%;
+  margin-bottom: 2%;
+  font-size: 0.9vw;
+}
+/* Задаём стили 'input' со значением "text"*/
+.Call_form input[type="text"]{
+  font-size: 0.9vw;
+  padding-left: 3%;
+  margin: 0% 0% 3% 13%;
+  padding: 5% 0% 5% 4%;
+  width: 20vw;
+  outline: none;
+
+  border: 1px solid #41B619;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+/* Задаём стили 'input' со значением "submit"*/
+.Call_form__button input[type="submit"]{
+margin-left: 13%;
+margin-bottom: 3%;
+padding: 5% 0% 5% 0%;
+width: 20vw;
+
+background: #41B619;
+border-radius: 100px;
+border: 0px;
+
+font-family: Noto Sans;
+font-style: normal;
+font-size: 1vw;
+color: #FFFFFF;
+}
+
+.Call_form__button input[type="submit"]:hover{
+background: #269001;
+}
+/* Задаём стили футеру*/
+.Call_form__footer p{
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 0.7vw;
+line-height: 120%;
+
+line-height: 120%;
+text-align: center;
+color: #272727;
+}
+
+.Call_form__footer a{
+color: blue;
+}
+
+
+
+
+
+
+
+.fons_6_form__sss p{
+    font-size: 1vw;
+    font-family: Noto Sans;
+    line-height: 155%;
+    text-align: center;
+    font-weight: bold;
+}
+.fons_6_form__sss ul{
+  display: flex;
+}
+.fons_6_form__sss li{
+
+}
+
+legend {
+margin-left: 51.5%;
+font-weight: bold;
+font-size: 1.1vw;
+padding: 0vw 0.5vw;
+
+}
+fieldset{
+  border: 1px solid;
+  border-color: #fedf5e;
+  border-radius: 10px;
+  padding: 2% 2% 2.7% 2%;
+  width: 95%;
+
+  font-size: 1vw;
+}

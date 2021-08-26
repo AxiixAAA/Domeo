@@ -1,0 +1,291 @@
+
+.fons {
+	background: url('../img/fon.jpg') no-repeat ;
+	background-size: 60% 100%;
+
+	background-position: right top;
+	padding: 1% 0%;
+}
+.fons_2 {
+	background-color: #fafafa;
+	padding: 4% 0%;
+}
+.fons_3 {
+	padding: 4% 0%;
+	background-color: #ffffff;
+	background: url('../img/fons_3__img.png')  no-repeat;
+	background-position: 16% 2%;
+	background-size: 20vw;
+}
+.fons_4{
+	background-color: #ffffff;
+	padding-bottom: 7%;
+	padding-top: 4%;
+}
+.fons_final{
+	background-color: #ffffff;
+	padding: 4% 0% 1% 0%;
+}
+
+.wrapper{
+	line-height: 155%;
+  width: 60%;
+  margin: 0px auto;
+  font-family: Noto Sans;
+	font-size: 0.8vw;
+}
+
+
+
+/*самый большой заголовок*/
+.Heading{
+	text-align: center;
+  font-weight: bold;
+	line-height: 100%;
+  font-size: 2.1vw;
+	margin-bottom: 2%;
+}
+
+/*Подзаголовок*/
+.Subtitle{
+	text-align: center;
+  font-size: 1.1vw;
+  margin-bottom: 4%;
+}
+
+/* Начало работы с head*/
+.head{
+  display: flex;
+  align-items: flex-end;
+	margin-bottom: 4%;
+}
+
+/* Жёлтый квадратик */
+.head__vector{
+  width: 4%;
+  border: 2px solid #FFDB48;
+}
+/* Текст лежащий в жёлтом квадратике */
+.head__vector__DOMEO{
+  font-weight: bold;
+  margin: 25% 0% 25% 35%;
+
+/* Текст по середине блока head */
+}
+.head__text{
+  margin-left: 7%;
+}
+
+/*Номер и ссылка*/
+.head__contact{
+  margin-left: 19%;
+  text-align: center;
+}
+.head__contact p{
+  font-size: 1.1vw;
+}
+.head__contact a{
+  color: black;
+  text-decoration: underline;
+}
+.head__contact a:hover{
+  color: grey;
+}
+/* Конец работы с head*/
+
+/* НАЧАЛО"блок с плюсами работы в компании"*/
+.pros ul{
+  display: flex;
+	flex-wrap: wrap;
+  width: 80%;
+	margin: 5% 0% 3% 0%;
+}
+.pros li{
+	line-height: 140%;
+	width: 37%;
+	margin-bottom: 3%;
+}
+.pros img{
+  float: left;
+	margin: 2% 5% 0% 0%;
+	width: 10%;
+}
+/* КОНЕЦ"блок с плюсами работы в компании"*/
+
+/* менюшка с вакансиями */
+.flex_Required ul{
+	display: flex;
+	flex-wrap: wrap;
+	font-weight: 600;
+	font-size: 1vw;
+}
+.flex_Required li{
+	width: 25%;
+	margin-bottom: 2%;
+
+}
+.flex_Required img{
+  float: left;
+	margin: 0% 5% 0% 0%;
+	width: 10%;
+}
+
+/* Жёлтый блок */
+.yellow_box ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1vw;
+	margin-top: 5%;
+	padding: 2.5% 2%;
+	max-width: 80%;
+	margin-left: 8%;
+	border-radius: 10px;
+	background-color: #ffdb47;
+	line-height: 155%;
+}
+.yellow_box li{
+	margin-left: 3%;
+}
+
+/* 10 плюсов расположенных на fons_3 */
+.fons_3__pros ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+.fons_3__pros li{
+	margin-bottom: 4%;
+	width: 48%;
+	padding: 5% 0%;
+	background: #FFFFFF;
+	box-shadow: 0px 16px 80px rgba(0, 0, 0, 0.07), 0px 6.68442px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 3.57381px 17.869px rgba(0, 0, 0, 0.0417275), 0px 2.00345px 10.0172px rgba(0, 0, 0, 0.035), 0px 1.06402px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 0.442761px 2.21381px rgba(0, 0, 0, 0.0196802);
+	border-radius: 10px;
+}
+
+/*Фоновая картинка в fons_3*/
+.fons_3__pros__fons{
+	font-weight: 600;
+	font-size: 102px;
+	color: rgba(255, 219, 72, 0.25);
+}
+.fons_3__pros__text{
+	margin-left: 10%;
+	font-size: 1vw;
+}
+
+.box_4 ul{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin-bottom: 10%;
+}
+.box_4 li{
+	width: 18%;
+}
+.box_4_img img{
+	width: 20%;
+}
+
+.yellow_circle{
+	width: 7vw;
+	height: 7vw;
+	border-radius: 100%;
+	background-color: #ffdb48;
+	line-height: 7vw;
+	font-size: 4vw;
+	font-weight: bold;
+	color: #ffffff;
+	margin-bottom: 30%;
+	margin-left: 16%;
+}
+
+.fons_4_img img{
+	width: 100%;
+}
+
+.fons_4__menu ul{
+ display: flex;
+ flex-direction: column;
+ font-size: 1vw;
+ font-family: Noto Sans;
+
+}
+.fons_4__menu li{
+	margin-bottom: 5%;
+	line-height: 155%;
+}
+.fons_4__menu img{
+	float: left;
+	margin-right: 1%;
+	width: 1.5vw;
+
+}
+
+
+.fons_4__futter{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.chasiki  {
+	display: flex;
+	align-items: center;
+	color: #0260e8;
+	font-size: 0.9vw;
+	font-weight: bold;
+	margin-bottom: 2%;
+}
+
+.fons_6_flex ul{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0%;
+}
+.fons_6_flex li{
+	width: 48%;
+
+}
+.fons_6_flex__text div{
+	margin-top: -1%;
+	margin-bottom: 6%;
+	line-height: 155%;
+	font-size: 1vw;
+}
+.thumb-wrap {
+  position: relative;
+  padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+  height: 0;
+  overflow: hidden;
+}
+.thumb-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-width: 0;
+  outline-width: 0;
+}
+
+.dok_img ul{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 8%;
+}
+.dok_img img{
+	width: 100%;
+}
+.carta{
+	width: 50%;
+
+}
+
+.fons_final__Call_form{
+		display: flex;
+		justify-content: space-between;
+
+
+}
